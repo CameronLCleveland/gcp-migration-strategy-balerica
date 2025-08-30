@@ -20,7 +20,7 @@ Balerica Inc., an educational services provider headquartered in Sao Paulo, soug
 
 The following diagram illustrates Balerica's existing on-premises network topology, which is manual, fragile, and not built for scale.
 
-![Balerica Current Network Topology](diagrams/GCP-Before.jpeg)
+![Balerica Current Network Topology](GCP-Before.jpeg)
 
 ### Diagram Explanation & Key Issues:
 *   **Flat Network:** All devices reside on a single network segment connected via **unmanaged TP-Link switches**, creating a major security risk where a breach on one device could compromise all assets.
@@ -32,7 +32,7 @@ The following diagram illustrates Balerica's existing on-premises network topolo
 
 The proposed future state leverages Google Cloud Platform to create a resilient, automated, and globally scalable infrastructure that addresses all of Balerica's expressed goals.
 
-![Balerica Future State on GCP](diagrams/GCP-After.jpeg)
+![Balerica Future State on GCP](GCP-After.jpeg)
 
 ### Diagram Explanation & Networking Choices:
 
